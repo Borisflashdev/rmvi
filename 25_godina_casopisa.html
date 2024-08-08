@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>25 година часописа "Војни инвалид"</title>
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="images/favicon/apple-touch-icon.png"
+    />
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Custom Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,700,700i,900"
+      rel="stylesheet"
+    />
+
+    <!-- Icon CSS -->
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Theme CSS -->
+    <link href="css/ts.css" rel="stylesheet" />
+    <link href="js/slick/slick.css" rel="stylesheet" />
+    <link href="js/lity/lity.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <script src="js/getDate.js" defer></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header1 header-megamenu">
+        <div class="topbar">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-sm-8 hidden-xs">
+                <div class="newsfeed">
+                  <span>Датум: </span><span id="todaysDate"></span>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="pull-right account-options">
+                  <a href="mailto:vojni.invalid@gmail.com" class="subscribe"
+                    >vojni.invalid@gmail.com</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="navbar-header padding-vertical-10">
+          <div class="container">
+            <h4 style="color: white">
+              УДРУЖЕЊЕ РАТНИХ И МИРНОДОПСКИХ ВОЈНИХ ИНВАЛИДА СРБИЈЕ
+            </h4>
+            <!-- <div class="ad-banner pull-right hidden-xs">
+              <a href="#"
+                ><img src="images/ads/728x90.jpg" class="img-responsive" alt=""
+              /></a>
+            </div> -->
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="container">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"
+          >
+            <span>РВМИ</span>
+            <span class="fa fa-navicon"></span>
+          </button>
+
+          <div class="search-wrap2">
+            <form>
+              <input type="text" placeholder="Search by typing" />
+              <div class="sw2-close"><span class="fa fa-close"></span></div>
+            </form>
+          </div>
+
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="dropdown dropdown-v2">
+                <a
+                  href="./index.html"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Насловна</a
+                >
+              </li>
+
+              <li class="dropdown dropdown-v2">
+                <a
+                  href="./aboutus.html"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >О нама <span class="fa fa-angle-down"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="./statut.html">Статут</a></li>
+                  <li><a href="./work_program.html">Програм рада</a></li>
+                  <li><a href="./structure.html">Структура</a></li>
+                  <li><a href="./commission.html">Комисије</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown dropdown-v2">
+                <a
+                  href="./aboutus.html"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >О нама <span class="fa fa-angle-down"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="./statut.html">Статут</a></li>
+                  <li><a href="./work_program.html">Програм рада</a></li>
+                  <li><a href="./structure.html">Структура</a></li>
+                  <li><a href="./commission.html">Комисије</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown dropdown-v2">
+                <a
+                  href="./activity.html"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Активности</a
+                >
+              </li>
+
+              <li class="dropdown dropdown-v2">
+                <a
+                  href="./multimedia.html"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Мултимедија <span class="fa fa-angle-down"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="./gallery.html">Галерије</a></li>
+                  <li><a href="./movies.html">Филмови</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown dropdown-v2">
+                <a
+                  href="./documents.html"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Документи</a
+                >
+              </li>
+
+              <li class="dropdown dropdown-v2">
+                <a
+                  href="./magazines.html"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Часописи</a
+                >
+              </li>
+
+              <li class="dropdown dropdown-v2">
+                <a
+                  href="./tv.html"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Телевизија</a
+                >
+              </li>
+
+              <li class="dropdown dropdown-v2">
+                <a
+                  href="./contact.html"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Контакт</a
+                >
+              </li>
+
+              <li class="dropdown dropdown-v2">
+                <a
+                  href="./archive.html"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Архива</a
+                >
+              </li>
+
+              <!-- <li class="pull-right hidden-xs">
+                <div class="search-trigger search-trigger2">
+                  <i class="fa fa-search"></i>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- // HEADER / MENU -->
+
+      <div class="container single-post padding-bottom-30 margin-top-30">
+        <div class="row">
+          <div class="col-md-12 margin-bottom-30">
+            <div class="layout_1--item blog-single-thumb">
+              <div class="overlay"></div>
+              <img src="images/vesti/9.jpg" class="img-responsive" alt="" />
+
+              <div class="layout-detail padding-25">
+                <h4>25 година часописа "Војни инвалид"</h4>
+                <div class="meta">
+                  <span class="date">20. септембар 2020</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="col-md-8 col-sm-7 padding-bottom-30">
+            <div class="blog-excerpt">
+              <p>
+                Новинарка телевизије Коперникус, Ивана Дамњановић приредила је
+                прилог о јубилеју 25 година часописа "Војни инвалид" који је
+                емитован на тој телевизији.
+              </p>
+              <p>
+                У прилогу она је детаљно обрадила рад Удружења ратних и
+                мирнодопских војних инвалида Србије.
+              </p>
+              <p>
+                Дамњановићева је потсетила да је УРМВИ Србије недавно обележило
+                100 година постојања.
+              </p>
+              <p>
+                Овом приликом захваљујемо се Дамњановићевој на пажњи коју је
+                посветила раду нашег удружења.
+              </p>
+            </div>
+          </div>
+
+          <!-- SIDEBAR -->
+          <aside class="col-md-4 col-sm-5">
+            <div class="side-widget margin-bottom-50">
+              <h3 class="heading-1"><span>Импресум</span></h3>
+              <ul class="side-posts">
+                <li>
+                  <span style="color: black"
+                    >UDK 355.292.4 <br />
+                    ISSN 0354-9631 <br />
+                    COBISS 148194567 <br
+                  /></span>
+                  <span
+                    >Решењем Агенције за привредне регистре, број БЈГ 248/2009,
+                    од 18.12.2009. године, ”Војни инвалид” је уписан у Регистар
+                    јавних гласила, под регистарским бројем NV000240</span
+                  >
+                </li>
+
+                <li>
+                  <span style="color: black">ОСНИВАЧИ ИЗДАВАЧ: <br /></span>
+                  <span
+                    >Републички одбор Удружења ратних и мирнодопских војних
+                    инвалида Србије, Београд, Савски трг број 9/lll
+                  </span>
+                </li>
+
+                <li>
+                  <span style="color: black">ТЕЛЕФОН <br /></span>
+                  <span
+                    >011/6687-854 Сајт Удружења: vojniinvalid.rs е-msail:
+                    vojni.invalid@gmail.com
+                  </span>
+                </li>
+
+                <li>
+                  <span style="color: black"
+                    >ЧАСОПИС УРЕЂУЈЕ УРЕЂИВАЧКИ КОЛЕГИЈУМ</span
+                  >
+                </li>
+
+                <li>
+                  <span style="color: black">ГЛАВНИ УРЕДНИК <br /></span>
+                  <span>Вук Станић </span>
+                </li>
+
+                <li>
+                  <span style="color: black">РЕДАКЦИЈА: <br /></span>
+                  <span
+                    >Вук Станић, Драгослав Дашић, Ана Милеуснић, Срећко
+                    Миловановић, Мирослав Никићевић, Бојан Ранђелковић, др Коста
+                    Новаковић и Енис Суљебић
+                  </span>
+                </li>
+
+                <li>
+                  <span style="color: black">ТЕХНИЧКА ПРИПРЕМА: <br /></span>
+                  <span>Штампарија Радунић </span>
+                </li>
+
+                <li>
+                  <span style="color: black">ТИРАЖ <br /></span>
+                  <span>2100 динара </span>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          <!-- // SIDEBAR -->
+        </div>
+      </div>
+      <!-- // CONTENT -->
+
+      <!-- FOOTER -->
+      <footer class="bg-dark footer1 padding-top-60">
+        <div class="container">
+          <div class="row margin-bottom-30">
+            <div class="col-md-6 col-sm-6 margin-bottom-30 footer-info">
+              <h5>УДРУЖЕЊЕ РАТНИХ И МИРНОДОПСКИХ ВОЈНИХ ИНВАЛИДА СРБИЈЕ</h5>
+              <p>
+                Садржај сајта www.vojniinvalid.rs је наше власништво и забрањено
+                је његово преузимање без наше дозволе, зарад комерцијалне
+                употребе или у друге сврхе, осим за личне потребе посетилаца
+                сајта.
+              </p>
+            </div>
+
+            <div class="col-md-6 col-sm-6 margin-bottom-30 footer-info">
+              <h5>Контакт</h5>
+              <span
+                ><i class="fa fa-map-marker"></i> Савски трг 9-3, Београд 11000,
+                Србија</span
+              >
+              <span
+                ><i class="fa fa-envelope"></i>
+                <a href="mailto:info@watcher.com"
+                  >vojni.invalid@gmail.com</a
+                ></span
+              >
+              <span><i class="fa fa-phone"></i> +38 11 6687 - 845</span>
+              <span><i class="fa fa-phone"></i> +38 11 7610 - 850</span>
+              <span><i class="fa fa-phone"></i> +38 11 7610 - 780</span>
+            </div>
+          </div>
+
+          <!-- FOOTER COPYRIGHT -->
+          <div class="footer-bottom">
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
+                <p>Site Build and Designed by techtonnik</p>
+              </div>
+              <div class="col-md-8 col-sm-12">
+                <ul class="footer-links">
+                  <li><a href="#">О нама</a></li>
+                  <li><a href="#">Активности</a></li>
+                  <li><a href="#">Документи</a></li>
+                  <li><a href="#">Часописи</a></li>
+                  <li><a href="#">Контакт</a></li>
+                  <li><a href="#">Архива</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- // FOOTER -->
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/socialShare.min.js"></script>
+    <script src="js/jquery.simpleWeather.min.js"></script>
+    <script src="js/lity/lity.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/main.js"></script>
+
+    <!-- Mailchimp Js -->
+    <script src="js/mc/jquery.ketchup.all.min.js"></script>
+    <script src="js/mc/main.js"></script>
+  </body>
+</html>
